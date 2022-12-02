@@ -313,6 +313,7 @@ body {
 /* Product Item */
 .product {
   border-radius: 1%;
+  border:none;
   /* border: solid gray 1px; */
 
 }

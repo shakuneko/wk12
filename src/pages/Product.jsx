@@ -16,7 +16,7 @@ function Product() {
    return (
       <Layout className="container main-layout">
          <Header className="layout-header">
-            <AppHeader title="Product Detail" />
+            <AppHeader title="Member introduction" />
          </Header>
          <Content className="layout-content">
             <ProductDetail product={product} isLoading={isLoading} />

@@ -17,18 +17,8 @@ export default function ProductItem({ product }) {
                 <h2 className="product-name">
                     {product.name}
                 </h2>
-                {/* <p className="product-description">
-                    {product.description}
-                </p> */}
-                <div className="product-more">
-                    {/* <Link to={`/products/id/${product.id}`} className="product-link">
-                        See More ...
-                    </Link> */}
-                    {/* <span
-                        className="text-gray">
-                        USD {product.price}.00
-                    </span> */}
-                </div>
+                {/* <div className="product-more">
+                </div> */}
             </div>
         </Card>
     );
